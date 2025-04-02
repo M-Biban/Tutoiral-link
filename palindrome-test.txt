@@ -12,7 +12,7 @@ test=["normalise_input('RaceCar')", "normalise_input('A man, a plan, a canal, Pa
 name=Reverse String
 description=Check if the string reversal works correctly.
 hint=Use slicing to reverse the string.
-expectedOutput=["racecar", "amanaplanacanalpanama"]
+expectedOutput=["raCecaR", "!amanaP ,lanac a ,nalp a ,nam A"]
 test=["reverse_string('RaceCar')", "reverse_string('A man, a plan, a canal, Panama!')"]
 
 name=Check for Palindrome
