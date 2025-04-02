@@ -18,7 +18,7 @@ test=["fizzbuzz(3)", "fizzbuzz(12)"]
 name=Test 3
 description=Replace multiples of 5 with "Buzz"
 hint=Use the modulo "%" operator to check if the number is divisble by 5"
-expectedOutput=["[1, 2, 'Fizz']", "[1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz']""]
+expectedOutput=["[1, 2, 'Fizz']", "[1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz']"]
 test=["fizzbuzz(3)", "fizzbuzz(12)"]
 
 name=Test 4
