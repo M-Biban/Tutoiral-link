@@ -1,0 +1,14 @@
+name=Palindrome Checker
+difficulty=2
+description=This is a project that will help you create a check for if a string is a palindrome.
+testsStart
+
+name=Normalise Input
+description=Convert input to lowercase and remove non-alphanumeric characters.
+hint=Use a loop to filter out non-alphanumeric characters.
+expectedOutput=["[1, 2, 3, 4]", "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"]
+test=["fizzbuzz(4)", "fizzbuzz(10)"]
+
+initialStateStart
+def normalise_input(text):
+  pass
