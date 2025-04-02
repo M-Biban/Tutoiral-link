@@ -10,14 +10,23 @@ expectedOutput=["racecar", "amanaplanacanalpanama"]
 test=["normalise_input('RaceCar')", "normalise_input('A man, a plan, a canal, Panama!')"]
 
 name=Reverse String
-description=CHeck if the string reversal works correctly.
+description=Check if the string reversal works correctly.
 hint=Use slicing to reverse the string.
 expectedOutput=["racecar", "amanaplanacanalpanama"]
 test=["reverse_string('RaceCar')", "reverse_string('A man, a plan, a canal, Panama!')"]
+
+name=Check for Palindrome
+description=Check if the string is identified as a palindrome.
+hint=Compare normalized input to its reversed version.
+expectedOutput=["true", "false"]
+test=["is_palindrome('racecar')", "is_palindrome('A man, a plan, a canal, Panama!')"]
 
 initialStateStart
 def normalise_input(text):
   pass
 
 def reverse_string(text):
+  pass
+
+def is_palindrome(text):
   pass
