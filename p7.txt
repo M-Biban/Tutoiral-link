@@ -9,6 +9,15 @@ hint=Use a loop to filter out non-alphanumeric characters.
 expectedOutput=["racecar", "amanaplanacanalpanama"]
 test=["normalise_input('RaceCar')", "normalise_input('A man, a plan, a canal, Panama!')"]
 
+name=Reverse String
+description=CHeck if the string reversal works correctly.
+hint=Use slicing to reverse the string.
+expectedOutput=["racecar", "amanaplanacanalpanama"]
+test=["reverse_string('RaceCar')", "reverse_string('A man, a plan, a canal, Panama!')"]
+
 initialStateStart
 def normalise_input(text):
+  pass
+
+def reverse_string(text):
   pass
