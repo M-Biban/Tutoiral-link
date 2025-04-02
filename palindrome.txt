@@ -6,8 +6,8 @@ testsStart
 name=Normalise Input
 description=Convert input to lowercase and remove non-alphanumeric characters.
 hint=Use a loop to filter out non-alphanumeric characters.
-expectedOutput=["[1, 2, 3, 4]", "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"]
-test=["fizzbuzz(4)", "fizzbuzz(10)"]
+expectedOutput=["racecar", "amanaplanacanalpanama"],
+test=["normalize_input('RaceCar')", "normalize_input('A man, a plan, a canal, Panama!')"],
 
 initialStateStart
 def normalise_input(text):
