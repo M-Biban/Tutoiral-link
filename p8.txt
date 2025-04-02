@@ -18,7 +18,7 @@ test=["reverse_string('RaceCar')", "reverse_string('A man, a plan, a canal, Pana
 name=Check for Palindrome
 description=Check if the string is identified as a palindrome.
 hint=Compare normalized input to its reversed version.
-expectedOutput=["true", "false"]
+expectedOutput=["True", "False"]
 test=["is_palindrome('racecar')", "is_palindrome('A man, a plan, a canal, Panama!')"]
 
 initialStateStart
